@@ -91,14 +91,29 @@ let totalMonths = finances.length;
 
 console.log("Total Months = " + totalMonths);
 
-let total = 0;
+let totalProfitLoss = 0;
+for (let i = 0; i < finances.length; i++) {
+  totalProfitLoss += finances[i][1];
+}
 
-// for(let index= 0; index <finances.length; index++){
-//  console.log(finances.)
-//}
-
-//console.log("Total Months = " + totalMonths);
+console.log("Total Profit/Loss is " + totalProfitLoss);
 
 // let count = 0 //
 // let jan Array =[] //
 // for (let index = 0; index < finances.length; index++) { const element = finances[index] console.log (element)}
+
+// Psuedocode //
+// Use the .length function to find the value of the length of the array, which will tell us how many months there are in total //
+// Then print this using concatenation//
+
+// Create a variable for the total profit/loss.//
+// Create a for loop to iterate through all the values in the array//
+// Access just the second values in the array (the numbers which tell us the amount of money lost/gained each month, not the strings showing the months)//
+// We do this using finances [i][1] because [i][0] would access the first values but we need the second ones to access the numbers//
+// We add the variable (currently value 0) to finances[i][1] which gives us the total of all of the numerical values added to the variable//
+// Print the total profit/loss value//
+
+// Calculate change in value between each month (Jan to Feb change would be Feb value - Jan value, Feb to March change would be March value - Feb value)//
+// Start at feb because no data for the month before January, so no change //
+// Create for loop to iterate and subtract the value of the previous month from the current month to determine the change value, and do this for every month with the for loop //
+// Then we find the average by adding all of the change values together and then dividing by the total number of months//
