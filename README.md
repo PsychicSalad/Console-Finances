@@ -33,9 +33,9 @@ https://github.com/PsychicSalad/Console-Finances
 
 These screenshots show the console open on the webpage which displays the financial analysis:
 
-![Screenshot of webpage with console open at the side](assets/Screenshot_1.png)
+![Screenshot of webpage with console open at the side](resources/Screenshot_1.png)
 
-![Screenshot of console open showing financial analysis printed to console](assets/Screenshot_2.png)
+![Screenshot of console open showing financial analysis printed to console](resources/Screenshot_2.png)
 
 ## License
 
