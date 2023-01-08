@@ -23,7 +23,11 @@ In the console you will be able to view the financial analysis, which has been p
 
 In order to view the application, please visit the deployed application link here:
 
+https://psychicsalad.github.io/Console-Finances/
+
 In order to view the repository, please visit:
+
+https://github.com/PsychicSalad/Console-Finances
 
 (This will allow you to see the Javascript code itself.)
 
