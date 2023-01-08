@@ -87,9 +87,13 @@ var finances = [
   ["Feb-2017", 671099],
 ];
 
+//----------------------Finding the total months--------------------------//
+
 let totalMonths = finances.length;
 
 console.log("Total Months = " + totalMonths);
+
+//----------------Finding the total overall profit/loss---------------------//
 
 let totalProfitLoss = 0;
 for (let i = 0; i < finances.length; i++) {
@@ -97,6 +101,8 @@ for (let i = 0; i < finances.length; i++) {
 }
 
 console.log("Total Profit/Loss is $ " + totalProfitLoss);
+
+//-------Finding the average change in profit over the whole period---------//
 
 let totalChange = 0;
 let currentMonth = 0;
@@ -118,7 +124,7 @@ let averageTotalChange = totalChange / (finances.length - 1);
 
 console.log("Average Total Change: $ " + averageTotalChange);
 
-//---------------------------------------//
+//-------Find greatest increase/decrease in profit over whole period---------//
 
 let greatestIncreaseMonth = finances[0][0];
 let greatestIncreaseCurrency = 0;
