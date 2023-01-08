@@ -89,6 +89,9 @@ var finances = [
 
 //----------------------Finding the total months--------------------------//
 
+console.log("Financial Analysis");
+console.log("---------------------");
+
 let totalMonths = finances.length;
 
 console.log("Total Months = " + totalMonths);
