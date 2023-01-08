@@ -96,7 +96,7 @@ for (let i = 0; i < finances.length; i++) {
   totalProfitLoss += finances[i][1];
 }
 
-console.log("Total Profit/Loss is $" + totalProfitLoss);
+console.log("Total Profit/Loss is $ " + totalProfitLoss);
 
 let totalChange = 0;
 let currentMonth = 0;
@@ -142,10 +142,19 @@ for (let i = 1; i < finances.length; i++) {
     greatestDecreaseCurrency = changePerMonth;
   }
 }
-console.log("Greatest Increase Month Was " + greatestIncreaseMonth);
-console.log("Greatest Increase Currency Was " + greatestIncreaseCurrency);
-console.log("Greatest Decrease Month Was " + greatestDecreaseMonth);
-console.log("Greatest Increase Currency Was " + greatestDecreaseCurrency);
+console.log(
+  "Greatest Increase Month Was " +
+    greatestIncreaseMonth +
+    " and the amount was $ " +
+    greatestIncreaseCurrency
+);
+
+console.log(
+  "Greatest Decrease  Month Was " +
+    greatestDecreaseMonth +
+    " and the amount was $ " +
+    greatestDecreaseCurrency
+);
 
 // Psuedocode //
 
