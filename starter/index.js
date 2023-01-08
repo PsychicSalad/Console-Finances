@@ -122,7 +122,9 @@ for (let i = 1; i < finances.length; i++) {
 
 let averageTotalChange = totalChange / (finances.length - 1);
 
-console.log("Average Total Change: $ " + averageTotalChange);
+let roundedavgTotalChange = averageTotalChange.toFixed(2);
+
+console.log("Average Total Change: $ " + roundedavgTotalChange);
 
 //-------Find greatest increase/decrease in profit over whole period---------//
 
